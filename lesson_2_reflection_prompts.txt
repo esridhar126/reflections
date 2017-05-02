@@ -3,18 +3,28 @@ What happens when you initialize a repository? Why do you need to do it?
 it will create new repository without commits. for create our new program from scarch
 
 How is the staging area different from the working directory and the repository?
+
+we can commit or change everything to respository through staging area only. it is an intermediate
+
+
 What value do you think it offers?
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
 
-What are some situations when branches would be helpful in keeping your history
-organized? How would branches help?
+every  commit has certain file name, we can compare and change using  git diff command
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+branches (versions) are upaded version of our program. if we did any mistake in updated version, sometimes it would be corrected through previous versions.
 
 How do the diagrams help you visualize the branch structure?
 
-What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?
+diagrams shows the process of various commits takes place through various branches. through this we can easily finout the changes.
 
-What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
-manually?
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+merging two branches will gives the more result from one process. diagramatic way will be easy to go through the files.
+
+What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges manually?
+
+during merge shows some errors related tosame process but different file name. it cannot be solved automatically . so v need a manual process
